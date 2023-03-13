@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+
+.button{
+    width: 110px;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    border: none;
+    background-color: #00474B;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+}
+
+.button:hover{
+    background-color: #9FE8DF;
+    color: #00474B;
+    transition: 0.3s;
+}
+
+.button:focus{
+    background-color: #26C2AE;
+    color: #00474B;
+    transition: 0.3s;
+}

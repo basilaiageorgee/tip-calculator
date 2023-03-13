@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.buttonpack-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.buttonpack-container p{
+    color: #5E7A7D;
+}
+
+.pack-1{
+    display: flex;
+}
+
+.pack-2{
+    display: flex;
+}
+
+.buttonpack-container input{
+    width: 90px;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    border: none;
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    color: #00474B;
+    margin: 10px 10px 10px 0;
+    text-align: right;
+}

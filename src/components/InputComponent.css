@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container img{
+    position: absolute;
+    padding-left: 10px;
+}
+
+.input-div{
+    display: flex;
+    align-items: center;
+}
+
+.input-container label{
+    color: #5E7A7D;
+    padding-bottom: 5px;
+}
+
+.input-container input{
+    background: #F3F9FA;
+    border: 2px solid #F3F9FA;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: right;
+    color: #00474B;
+    font-family: 'Space Mono', monospace;
+    outline:none;
+}
+
+.input-container input:focus{
+    border: 2px solid #26C2AE;
+}
