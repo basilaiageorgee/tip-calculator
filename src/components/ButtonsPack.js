@@ -21,7 +21,7 @@ const ButtonsPack = ({handler}) => {
                 <Button percent="25" buttonHandler={handler}/>
                 <Button percent="50" buttonHandler={handler}/>
                 <div>
-                    <input placeholder="Custom" onChange={handleChange}/>
+                    <input placeholder="Custom" onChange={handleChange} className="costumP"/>
                 </div>
             </div>
         </div>

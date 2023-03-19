@@ -1,6 +1,6 @@
 import "./InputComponent.css"
 
-const InputComponent = ({name, ICON, setValue}) => {
+const InputComponent = ({name, ICON, setValue, value}) => {
     const handleChange = (e) => {
         setValue(e.target.value)
     }
@@ -10,10 +10,13 @@ const InputComponent = ({name, ICON, setValue}) => {
             <label for={name}>{name}</label>
             <div className="input-div">
                 <img src={ICON}/>
-                <input name={name} placeholder="0" onChange={handleChange}/>
+                <input name={name} placeholder="0" value={value} onChange={handleChange}/>
             </div>
         </div>
     )
 }
+
+
+
 
 export default InputComponent
